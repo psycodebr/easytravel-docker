@@ -1,3 +1,14 @@
+## In the Dynatrace repository there is the following project to be installed in docker, but it was necessary to add the following environment variables of mongodb in the docker-compose.yml file
+
+´´´ 
+    environment:
+    
+      ET_MONGO_AUTH_DB: "admin"
+      ET_DATABASE_USER: "etAdmin"
+      ET_DATABASE_PASSWORD: "adminadmin"
+```      
+      
+
 # easyTravel-Docker
 
 ![easyTravel Logo](https://github.com/dynatrace-innovationlab/easyTravel-Builder/blob/images/easyTravel-logo.png)
